@@ -11,7 +11,7 @@ public class Base {
 	
 	public WebDriver getdriver() {
 		
-		System.setProperty("webdriver.chrome.driver", "./Drivers/Chromedriver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver88");
 		
 		driver = new ChromeDriver();
 		driver.get("http://chegg-qa-challenge.herokuapp.com/login");
