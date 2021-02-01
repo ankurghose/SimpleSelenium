@@ -15,13 +15,14 @@ public class Base {
 		
 		driver = new ChromeDriver();
 		driver.get("http://chegg-qa-challenge.herokuapp.com/login");
-	//	driver.get("https://www.amazon.com/");
+	  // driver.get("https://www.amazon.com/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		return driver;
-		//12
-		//21
-		//31 new 1 new
+
+
+		// New comment
+
 	}
 
 }
